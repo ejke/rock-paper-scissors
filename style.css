@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.reset {
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  top: 20rem;
+}
+.decision {
+  top: 10rem;
+}
+.decision h2 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+.decision input[type=radio] {
+  opacity: 0;
+}
+.decision input[type=radio] + label {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 1s;
+  border: 2px solid transparent;
+  padding: 1rem;
+}
+.decision input[type=radio] + label:hover {
+  border: 2px solid #fff;
+}
+.decision input[type=radio]:checked + label {
+  border: 2px solid #fff;
+}
+.gameover {
+    top: 0rem;
+}
+
+/*last ones*/
+.move {
+  position: relative;
+  transition: 1s;
+}
+.fadeout {
+  opacity: 0;
+  top: 30rem;
+  transition: 1s;
+}
+.zoomin {
+  opacity: 0;
+  transform: scale(0);
+}

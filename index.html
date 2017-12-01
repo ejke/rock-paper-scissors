@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <button class="move reset" id="reset">New game</button>
+    <div class="move zoomin decision" id="decision">
+      <h2>
+        Choose wisely
+      </h2>
+      <input id="rock" name="human" type="radio" value="rock" />
+      <label for="rock">Rock</label>
+
+      <input id="paper" name="human" type="radio" value="paper" />
+      <label for="paper">Paper</label>
+
+      <input id="scissors" name="human" type="radio" value="scissors" />
+      <label for="scissors">Scissors</label>
+    </div>
+    <div class="move zoomin gameover" id="gameover">
+      <p id="explain"></p>
+      <h2 id="whowon"></h2>
+    </div>
+<!-- Scripts-->
+  <script src="two.js"></script>
+  </body>
+</html>
