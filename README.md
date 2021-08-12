@@ -5,4 +5,6 @@ Styled in a way that player don't even have to move cursor or wait unnecessarily
 Play it at 
 https://codepen.io/ejke/full/gXZzxR/
 
+Helloo, test from dot
+
 
